@@ -1,0 +1,23 @@
+{
+  "name": "backjoon",
+  "version": "1.0.0",
+  "description": "PS",
+  "main": "index.js",
+  "dependencies": {
+    "fs": "0.0.1-security"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pjj186/backjoon.git"
+  },
+  "author": "ParkJongJae",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pjj186/backjoon/issues"
+  },
+  "homepage": "https://github.com/pjj186/backjoon#readme"
+}
