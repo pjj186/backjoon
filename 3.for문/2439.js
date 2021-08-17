@@ -3,12 +3,18 @@ let fs = require("fs");
 let input = fs.readFileSync("예제입력.txt").toString().split(" ");
 
 let num = Number(input);
-let star = "";
 let output = "";
 
 for (let i = 0; i < num; i++) {
-  star += "*";
-  output += `${star} \n`;
+  // 공백 for 문
+  for (let j = 0; j < num - i - 1; j++) {
+    output += " ";
+  }
+  // 별 for 문
+  for (let k = 0; k <= i; k++) {
+    output += "*";
+  }
+  output += "\n";
 }
 
 console.log(output);
